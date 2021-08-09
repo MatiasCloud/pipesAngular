@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-
+// Filter up to 7 fields from a json object
 @Pipe({
   name: 'filter'
 })
